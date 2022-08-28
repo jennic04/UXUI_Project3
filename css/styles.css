@@ -121,4 +121,26 @@ body {
     float: right;
     font-size: 2rem;
     font-weight: 400;
+    }
+
+.hero{
+    max-width: 375;
+    max-height: 350;
+}
+
+.bio-section{
+    max-width: 375;
+    max-height: 230;
+    padding: 20px;
+    justify-content: center;
+}
+
+.p{
+    font-size: 17px;
+}
+
+.ownerprofile{
+    position:absolute;
+    top:285px;
+    left:250px;
 }
