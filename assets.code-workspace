@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "assets",
+			"path": "..\\..\\..\\Desktop\\assets"
+		},
+		{
+			"name": "UXUI_Project3",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "UXUI_Project3"
+	}
+}
