@@ -1,16 +1,144 @@
+html {
+    font-size: 17px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+}
+
+/* Style Buttons */
+.profileInfoBtns {
+    height: 2.82rem;
+    width: 6.88rem;
+    border-radius: 15px;
+    border: none;
+    margin: 4px;
+    padding: 0;
+    border-radius: 15px;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+}
+
+#healthBtn {
+    background-color: #FCCA46;
+}
+
+#trainingBtn {
+    background-color: #F4A261;
+}
+
+#generalBtn {
+    background-color: #2A9D8F;
+}
+
+#ownerBtn {
+    background-color: #E76F51;
+}
+
+#buttonContainer {
+    padding: 0;
+    margin: 0;
+    overflow-x: auto;
+}
+
+#buttonCarousel {
+    width: 131%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#buttonContainer::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#buttonContainer {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.modalCards {
+    width: 100%;
+    height: 100%;
+}
+
+/* Style Modals */
+.profileModal {
+    /* display: none; */
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #00000066;
+    animation: fadein 500ms;
+}
+
+#healthModal,
+#trainingModal,
+#generalModal,
+#ownerModal {
+    display: none;
+    /* border: 1px solid blue; */
+}
+
+.profileModal h3 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.profileModal p {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.modalContent {
+    /* border: 1px solid orange; */
+    background-color: #fff;
+    width: 91.5%;
+    border-radius: 15px;
+    margin: 40% auto;
+    padding: 16px;
+    box-shadow: 0px 4px 20px rgba(9, 44, 76, 0.16);
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.close {
+    color: #000;
+    float: right;
+    font-size: 2rem;
+    font-weight: 400;
+    }
+
 .hero{
     max-width: 375;
     max-height: 350;
 }
+
 .bio-section{
     max-width: 375;
     max-height: 230;
     padding: 20px;
     justify-content: center;
 }
+
 .p{
     font-size: 17px;
 }
+
 .ownerprofile{
     position:absolute;
     top:285px;

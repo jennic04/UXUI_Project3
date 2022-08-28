@@ -12,12 +12,15 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chewy&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>FurEver Friends</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-
 <body>
-    <div class="hero">
+<div class="hero">
         <img src="./assets/beachdog.png">
         <img class="ownerprofile" src="./assets/ownerprofile.png"
     </div>
@@ -29,6 +32,66 @@ to give kisses. He is a smart guy,knows lots of commands and walks well on a lea
 <p>Bean does have some seperation anxiety, but we're working on that with a trainer.Bean LOVES water,but not so much cats. 
 </p>
 </div>
+<div id="buttonContainer">
+    <ul id="buttonCarousel">
+        <li><button id="healthBtn" class="profileInfoBtns">Health</button></li>
+        <li><button id="trainingBtn" class="profileInfoBtns">Training</button></li>
+        <li><button id="generalBtn" class="profileInfoBtns">General</button></li>
+        <li><button id="ownerBtn" class="profileInfoBtns">Owner</button></li>
+    </ul>
+    <div class="modalCards">
+        <div id="healthModal" class="profileModal">
+            <div class="modalContent">
+                <div class="modalHeader">
+                    <span class="close">&times;</span>
+                    <h3>Bean's Health</h3>
+                </div>
+                <p>Neutered: Yes</p>
+                <p>Vaccinations: Up to date</p>
+                <p>Bean is a pretty healthy guy. When I first got him he was a little underweight, but he's doing great
+                    now.
+                </p>
+            </div>
+        </div>
+        <div id="trainingModal" class="profileModal">
+            <div class="modalContent">
+                <div class="modalHeader">
+                    <span class="close">&times;</span>
+                    <h3>Bean's Training</h3>
+                </div>
+                <p>Bean is a super smart guy. He walks on a leash really well and can follow a lot of commands. </p>
+                <p>We use positive reinforcement and a clicker. We just started trying some recordable buttons.</p>
+                <p>Bean has some separation anxiety, but we're working on it with a trainer! </p>
+            </div>
+        </div>
+        <div id="generalModal" class="profileModal">
+            <div class="modalContent">
+                <div class="modalHeader">
+                    <span class="close">&times;</span>
+                    <h3>All About Bean</h3>
+                </div>
+                <p>Aggression History: None</p>
+                <p>Years Owned: 1 year</p>
+                <p>Number of Playdates: 8</p>
+                <p>Number of Group Events: 7</p>
+            </div>
+        </div>
+        <div id="ownerModal" class="profileModal">
+            <div class="modalContent">
+                <div class="modalHeader">
+                    <span class="close">&times;</span>
+                    <h3>Bean's Owner</h3>
+                </div>
+                <p>Bean is owned by Marissa Dixon. Marissa adopted Bean from DogsRUs Shelter in July 2021. Marissa works
+                    from home and loves that she gets to spend so much time with Bean. She plays in a local cornhole
+                    league
+                    and loves to have Bean to come cheer her team on.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
     <!-- Scripts for Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
