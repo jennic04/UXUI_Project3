@@ -5,6 +5,31 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   color: #000;
+  width: 375px;
+}
+
+h1 {
+  font-size: 1.802rem;
+}
+
+h2 {
+  font-size: 1.602rem;
+}
+
+h3 {
+  font-size: 1.424rem;
+}
+
+h4 {
+  font-size: 1.266rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+
+p {
+  font-size: 1rem;
 }
 
 /* Styles for Hero */
@@ -24,33 +49,20 @@ body {
   width: 95px;
   height: 95px;
   top: 285px;
-  left: 220px;
+  left: 264px;
 }
 
 /* Styles for Summary Section */
-:root {
-  --white: #ffffff;
-  --black: #000000;
-  --blue-dianne: #233d4d;
-  --gray: #828282;
-  --font-size-m: 17px;
-  --font-size-s: 14px;
-  --font-size-m2: 24px;
-  --font-family-montserrat: "Montserrat", Helvetica;
-}
-
 .topSummarySection {
-  border: 1px solid purple;
   width: 375px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0;
-  padding: 0;
+  margin: 0 0 24px 0;
+  padding: 0 16px;
 }
 
 .leftInfoSummary {
-  border: 1px solid orange;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -59,30 +71,21 @@ body {
 }
 
 .ownerName {
-  border: 1px solid teal;
   margin: 0;
   padding: 0;
-  justify-content: right;
 }
-
-/* .bean-l0x9hJ {
-  font-size: var(--font-size-m2);
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  letter-spacing: 0px;
-  line-height: normal;
-  text-align: left;
-  width: auto;
-} */
 
 .dogName {
-  border: 1px solid blue;
   display: flex;
-
 }
 
+.dogName h3 {
+  margin-bottom: 2px;
+}
 
+.dogAge p {
+  margin: 0;
+}
 
 .verified-icon-l0x9hJ {
   background-color: transparent;
@@ -90,224 +93,54 @@ body {
   width: 31px;
 }
 
-/* .x4-years-old-l0x9hJ {
-  height: auto;
-  left: 16px;
-  letter-spacing: 0px;
-  line-height: normal;
-  width: auto;
+.small {
+  font-size: 0.889rem;
+  color: #828282;
 }
 
-.owned-by-marissa-l0x9hJ {
-  height: auto;
-  letter-spacing: 0px;
-  line-height: normal;
-  text-align: right;
-  width: auto;
-} */
-
-/* .group-33-l0x9hJ {
-  background-color:
-    transparent;
-  height: 40px;
-  left: 43px;
-  top: 498px;
-  width: 67px;
+.middleSummarySection {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 16px 24px 16px;
 }
 
-.followers-cHMWdw {
-  background-color:
-    transparent;
-  height: auto;
-  left: 0px;
-  letter-spacing: 0px;
-  line-height: normal;
-  mix-blend-mode: normal;
-
+.middleSummarySection p {
+  margin: 0;
   text-align: center;
-  top: 23px;
-  width: auto;
 }
 
-.x10-cHMWdw {
-  background-color:
-    transparent;
-  height: auto;
-  left: 23px;
-  letter-spacing: 0px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  text-align: center;
-  top: 0px;
-  width: auto;
+.bottomSummarySection {
+  margin: 0 16px 24px 16px;
 }
 
-.group-34-l0x9hJ {
-  background-color:
-    transparent;
-  height: 40px;
-  left: 154px;
-  top: 497px;
-  width: 72px;
-}
-
-.playdates-OJVpy7 {
-  background-color:
-    transparent;
-  height: auto;
-  left: 0px;
-  letter-spacing: 0px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  text-align: center;
-  top: 23px;
-  width: auto;
-}
-
-.x8-OJVpy7 {
-  background-color:
-    transparent;
-  height: auto;
-  left: 29px;
-  letter-spacing: 0px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  text-align: center;
-  top: 0px;
-  width: auto;
-}
-
-.group-35-l0x9hJ {
-  background-color:
-    transparent;
-  height: 40px;
-  left: 269px;
-  top: 498px;
-  width: 69px;
-}
-
-.x21-UqHtiF {
-  background-color:
-    transparent;
-  height: auto;
-  left: 25px;
-  letter-spacing: 0px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  text-align: center;
-  top: 0px;
-  width: auto;
-}
-
-.following-UqHtiF {
-  background-color:
-    transparent;
-  height: auto;
-  left: 0px;
-  letter-spacing: 0px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  text-align: center;
-  top: 23px;
-  width: auto;
-}
-
-.outline-default-l0x9hJ {
-  background-color:
-    transparent;
-  border: 2px solid var(--blue-dianne);
-  border-radius: 25px;
-  height: 48px;
-  left: 30px;
-  overflow: hidden;
-  top: 562px;
+.outlineBtn {
   width: 150px;
-}
-
-.vector-L1sH2h {
-  background-color:
-    transparent;
-  height: 14px;
-  left: 108px;
-  mix-blend-mode: normal;
-  top: 17px;
-  width: 21px;
-}
-
-.following-L1sH2h {
-  background-color:
-    transparent;
-  height: auto;
-  left: 20px;
-  letter-spacing: 0px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  text-align: left;
-  top: 11px;
-  width: auto;
-}
-
-.outline-default-g267pd {
-  background-color:
-    transparent;
-  border: 2px solid var(--blue-dianne);
-  border-radius: 25px;
   height: 48px;
-  left: 196px;
-  overflow: hidden;
-  top: 562px;
-  width: 150px;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #233D4D;
+  margin: 8px;
 }
 
-.message-5Dt6wz {
-  background-color:
-    transparent;
-  height: auto;
-  left: 25px;
-  letter-spacing: 0px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  text-align: left;
-  top: 11px;
-  width: auto;
-}
-
-.forward_to_inbox-5Dt6wz {
-  background-color:
-    transparent;
-  height: 14px;
-  left: 105px;
-  mix-blend-mode: normal;
-  top: 16px;
+.btnImage {
   width: 21px;
-} */
+  height: 14px;
+  margin-left: 4px;
+}
 
 /* Styles for Bio */
-/* .bio-section {
-  max-width: 375;
-  max-height: 230;
-  padding: 20px;
-  justify-content: center;
+#bio-section {
+  margin: 0 16px 24px 16px;
 }
 
-.p {
-  font-size: 17px;
-} */
-
-
-
-
-
-
-/* Style Buttons */
+/* Style Info Buttons */
 .profileInfoBtns {
-  height: 2.82rem;
-  width: 6.88rem;
+  height: 48px;
+  width: 117px;
   border-radius: 15px;
   border: none;
   margin: 4px;
   padding: 0;
-  border-radius: 15px;
   filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
 }
 
@@ -335,7 +168,7 @@ body {
 
 #buttonCarousel {
   width: 131%;
-  margin: 0;
+  margin: 0 0 24px 0;
   padding: 0;
   display: flex;
   list-style: none;
@@ -354,17 +187,22 @@ body {
   /* Firefox */
 }
 
-.modalCards {
-  width: 100%;
-  height: 100%;
-}
+
 
 /* Style Modals */
-.profileModal {
+.modalCards {
   /* display: none; */
+  /* width: 100vw;
+  height: 100vh; */
+  /* z-index: 1; */
+}
+
+.profileModal {
   position: fixed;
+  left: 0;
+  top: 0;
   z-index: 1;
-  width: 100%;
+  width: 375px;
   height: 100%;
   background-color: #00000066;
   animation: fadein 500ms;
@@ -415,21 +253,28 @@ body {
   font-weight: 400;
 }
 
-
+/* Styles for Gallery */
 .gallery {
+  width: 375px;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 164px 164px;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   justify-items: center;
-  padding-left: 23px;
   width: max-content;
-
+  margin: 0 16px 60px 16px;
+  column-gap: 16px;
+  row-gap: 16px;
 }
 
-img {
-  width: 164px;
-  height: 164px;
+.gallery img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
 }
 
+/* Styles for bottom nav */
 .navbar {
   bottom: 0;
   justify-content: space-between;
@@ -437,6 +282,7 @@ img {
   position: fixed;
   width: 100%;
   padding-bottom: 20px;
+  background-color: #fff;
 }
 
 #home-icon {

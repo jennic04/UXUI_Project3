@@ -16,8 +16,6 @@
     href="https://fonts.googleapis.com/css2?family=Chewy&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <title>FurEver Friends</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <title>Document</title>
 </head>
 
 <body>
@@ -45,47 +43,37 @@
   </div>
 
   <div class="middleSummarySection">
-    <div class="statsSummary">
-      <div class="group-33-l0x9hJ">
-        <div class="x10-cHMWdw montserrat-normal-black-17px">10</div>
-        <div class="followers-cHMWdw montserrat-normal-gray-14px">followers</div>
-      </div>
-      <div class="group-34-l0x9hJ">
-        <div class="x8-OJVpy7 montserrat-normal-black-17px">8</div>
-        <div class="playdates-OJVpy7 montserrat-normal-gray-14px">playdates</div>
-      </div>
-      <div class="group-35-l0x9hJ">
-        <div class="x21-UqHtiF montserrat-normal-black-17px">21</div>
-        <div class="following-UqHtiF montserrat-normal-gray-14px">following</div>
-      </div>
+    <div class="followers">
+      <p>10</p>
+      <p class="small">followers</p>
+    </div>
+    <div class="playdates">
+      <p>8</p>
+      <p class="small">playdates</p>
+    </div>
+    <div class="following">
+      <p>21</p>
+      <p class="small">following</p>
     </div>
   </div>
+
+
   <div class="bottomSummarySection">
-    <div class="outline-default-l0x9hJ border-2px-blue-dianne">
-      <div class="following-L1sH2h montserrat-normal-blue-dianne-17px">
-        Following
-      </div>
-      <img class="vector-L1sH2h" src="assets/Check.png" />
-    </div>
-    <div class="outline-default-g267pd border-2px-blue-dianne">
-      <div class="message-5Dt6wz montserrat-normal-blue-dianne-17px">Message</div>
-      <img class="forward_to_inbox-5Dt6wz" src="assets/Envelope.png" />
-    </div>
+    <button class="outlineBtn">Following <img class="btnImage" src="./assets/check.png" alt=""></button>
+    <button class="outlineBtn">Message <img class="btnImage" src="./assets/envelope.png" alt=""></button>
   </div>
 
-
-  <!-- <div id="bio-section">
-    <p>Bean is very sweet social and loves people!Sometimeshe does forget his size and has a tendency to want to jump on
-      people
-      to give kisses. He is a smart guy,knows lots of commands and walks well on a leash.
+  <!-- Bio -->
+  <div id="bio-section">
+    <p>Bean is very sweet, social, and loves people! Sometimes he does forget his size and has a tendency to want to
+      jump on people to give kisses. He is a smart guy and knows lots of commands and walks well on a leash.
     </p>
-
-    <p>Bean does have some separation anxiety, but we're working on that with a trainer.Bean LOVES water,but not so much
-      cats.
+    <p>Bean does have some separation anxiety, but we're working on that with a trainer. Bean LOVES water, but not so
+      much cats.
     </p>
-  </div> -->
+  </div>
 
-
+  <!-- Info BUttons and Modals -->
   <div id="buttonContainer">
     <ul id="buttonCarousel">
       <li><button id="healthBtn" class="profileInfoBtns">Health</button></li>
@@ -145,7 +133,7 @@
     </div>
   </div>
 
-
+  <!-- Gallery -->
   <div class="gallery">
     <div class="gallery-img"><img src="assets/dog 1.png"> </div>
     <div class="gallery-img"><img src="assets/dog 2.png"> </div>
@@ -157,6 +145,7 @@
     <div class="gallery-img"><img src="assets/dog 8.png"> </div>
   </div>
 
+  <!-- Bottom Nav -->
   <div class="navbar">
     <a href="#home-icon"> <img src="assets/home.png" id="home-icon"> </a>
     <a href="#messages-icon"> <img src="assets/messages.png" id="messages-icon"> </a>
